@@ -22,6 +22,10 @@ $(call inherit-product-if-exists, vendor/lge/h815/h815-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
+# G4 Camera
+PRODUCT_PACKAGES += \
+    G4Camera
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:system/etc/audio_platform_info.xml
