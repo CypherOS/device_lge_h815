@@ -26,5 +26,9 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:system/etc/audio_platform_info.xml
 
+# G4 Camera
+PRODUCT_PACKAGES += \
+    G4Camera
+
 # common g4
 $(call inherit-product, device/lge/g4-common/g4.mk)
