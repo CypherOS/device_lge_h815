@@ -14,10 +14,5 @@
     "repository": "AICP/proprietary_vendor_lge",
     "target_path": "vendor/lge",
     "branch":      "mm6.0"
-  },
-  {
-    "repository": "codeworkx/android_packages_apps_Snap",
-    "target_path": "packages/apps/Snap",
-    "branch":      "cm-13.0"
-  }  
+  }
 ]
