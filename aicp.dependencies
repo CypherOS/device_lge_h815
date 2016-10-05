@@ -3,12 +3,12 @@
   {
     "repository": "CyanogenMod/android_device_lge_g4-common",
     "target_path": "device/lge/g4-common",
-    "branch":      "cm-13.0"
+    "branch":      "cm-14.0"
   },
   {
     "repository": "CyanogenMod/android_kernel_lge_msm8992",
     "target_path": "kernel/lge/msm8992",
-    "branch":      "cm-13.0"
+    "branch":      "cm-14.0"
   },
   {
     "repository": "AICP/proprietary_vendor_lge",
