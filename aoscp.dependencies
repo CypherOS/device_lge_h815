@@ -1,0 +1,27 @@
+
+[
+  {
+    "repository":  "android_device_lge_g4-common",
+    "target_path": "device/lge/g4-common",
+    "branch":      "cm-14.0",
+    "remote":      "cm"
+  },
+  {
+    "repository":  "android_kernel_lge_msm8992",
+    "target_path": "kernel/lge/msm8992",
+    "branch":      "cm-14.0",
+    "remote":      "cm"
+  },
+  {
+    "repository":  "proprietary_vendor_lge",
+    "target_path": "vendor/lge",
+    "branch":      "n7.0",
+    "remote":      "aicp"
+  },
+  {
+    "repository":  "android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch":      "cm-14.0",
+    "remote":      "cm"
+  }
+]
