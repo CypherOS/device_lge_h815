@@ -4,9 +4,6 @@ $(call inherit-product, vendor/aoscp/configs/common.mk)
 # Inherit telephony stuff
 $(call inherit-product, vendor/aoscp/configs/telephony.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/aoscp/configs/nfc_enhanced.mk)
-
 # Inherit AOSP device configuration for H815
 $(call inherit-product, device/lge/h815/full_h815.mk)
 
