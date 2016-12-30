@@ -1,33 +1,32 @@
-
 [
   {
-    "repository":  "android_device_lge_g4-common",
+    "repository":  "device_lge_g4-common",
     "target_path": "device/lge/g4-common",
-    "branch":      "cm-14.1",
-    "remote":      "cm"
+    "branch":      "n7.1",
+    "remote":      "aoscp"
   },
   {
-    "repository":  "android_kernel_lge_msm8992",
+    "repository":  "kernel_lge_msm8992",
     "target_path": "kernel/lge/msm8992",
-    "branch":      "cm-14.1",
-    "remote":      "cm"
+    "branch":      "n7.1",
+    "remote":      "aoscp"
   },
   {
     "repository":  "proprietary_vendor_lge",
     "target_path": "vendor/lge",
     "branch":      "n7.1",
-    "remote":      "aicp"
+    "remote":      "aoscp"
   },
   {
-    "repository":  "android_device_qcom_common",
+    "repository":  "device_qcom_common",
     "target_path": "device/qcom/common",
-    "branch":      "cm-14.1",
-    "remote":      "cm"
+    "branch":      "n7.1",
+    "remote":      "aoscp"
   },
   {
     "repository":  "proprietary_vendor_qcom_binaries",
     "target_path": "vendor/qcom/binaries",
-    "branch":      "cm-14.1",
-    "remote":      "tm"
+    "branch":      "n7.1",
+    "remote":      "aoscp"
   }
 ]
