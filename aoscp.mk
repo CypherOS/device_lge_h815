@@ -12,7 +12,12 @@ TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
 # Setup device specific product configuration
-PRODUCT_NAME := aoscp_h815
+ifneq ($(TARGET_DEVICE),h815)
+   PRODUCT_NAME := aoscp_h815
+endif
+ifneq ($(TARGET_DEVICE),h815_usu)
+   PRODUCT_NAME := aoscp_h815_usu
+endif
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g4" \
