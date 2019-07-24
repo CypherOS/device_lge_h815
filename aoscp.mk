@@ -1,8 +1,5 @@
 # Inherit AOSCP common bits
-$(call inherit-product, vendor/aoscp/configs/common.mk)
-
-# Inherit telephony stuff
-$(call inherit-product, vendor/aoscp/configs/telephony.mk)
+$(call inherit-product, vendor/aoscp/configs/common_full_phone.mk)
 
 # Inherit AOSP device configuration for H815
 $(call inherit-product, device/lge/h815/h815.mk)
