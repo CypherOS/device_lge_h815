@@ -22,11 +22,6 @@ $(call inherit-product-if-exists, vendor/lge/h815/h815-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Init configuration
-PRODUCT_PACKAGES += \
-    fstab.h815 \
-    init.device.rc 
-
 # Gps
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/gps.conf:system/etc/gps.conf
